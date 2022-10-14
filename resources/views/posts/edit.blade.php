@@ -20,7 +20,7 @@
                 <p class="body__error" style="color:red">{{ $errors->first('post.body') }}</p>
                 
             </div>
-            <input type="submit" value="update"/>
+            <input type="submit" value="update">
         </form>
         <div class="footer">
             <a href="/posts/{{$post -> id }}">戻る</a>
