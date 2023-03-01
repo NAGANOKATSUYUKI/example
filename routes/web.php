@@ -13,5 +13,6 @@ use App\Http\Controllers\PostController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//この行は決して良い
+//
 Route::get('/posts',[PostController::class,'index']);
